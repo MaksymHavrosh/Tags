@@ -10,6 +10,7 @@ import UIKit
 
 protocol HomePresenterProtocol {
     init(view: HomeViewControllerProtocol)
+    func display(tags: [HomeViewModel.Response.Result])
 }
 
 final class HomePresenter: HomePresenterProtocol {
@@ -17,5 +18,9 @@ final class HomePresenter: HomePresenterProtocol {
     
     required init(view: HomeViewControllerProtocol) {
         self.view = view
+    }
+    
+    func display(tags: [HomeViewModel.Response.Result]) {
+        
     }
 }

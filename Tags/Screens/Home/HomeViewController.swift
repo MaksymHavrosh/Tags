@@ -33,6 +33,7 @@ final class HomeViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        loadData()
         setupViews()
     }
     
@@ -51,6 +52,11 @@ final class HomeViewController: UIViewController {
         collectionView.dataSource = collectionViewDataSource
         
         collectionView.registerCell(TagCollectionViewCell.self)
+    }
+    
+    // MARK: - Other Logic
+    private func loadData() {
+        interactor.getTags()
     }
 }
 

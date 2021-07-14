@@ -8,9 +8,16 @@
 import Foundation
 
 protocol HomeWorkerProtocol: class {
-    
+    func getTags(parameters: HomeViewModel.Parameters, _ completion: @escaping (Result<HomeViewModel.Response.Tags, CustomError>) -> Void)
 }
 
 final class HomeWorker: HomeWorkerProtocol {
+    // MARK: - Properties
+    private let homeAPI = HomeRequests()
     
+    func getTags(parameters: HomeViewModel.Parameters,_ completion: @escaping (Result<HomeViewModel.Response.Tags, CustomError>) -> Void) {
+        homeAPI.getTags(parameters: parameters) { result in
+            completion(result)
+        }
+    }
 }

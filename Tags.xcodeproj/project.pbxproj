@@ -3,10 +3,17 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		24666E8A269F3A540067EF91 /* HomeRequests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24666E76269F3A540067EF91 /* HomeRequests.swift */; };
+		24666E92269F3A540067EF91 /* InternetService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24666E7F269F3A540067EF91 /* InternetService.swift */; };
+		24666E93269F3A540067EF91 /* NetworkActivityIndicatorManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24666E80269F3A540067EF91 /* NetworkActivityIndicatorManager.swift */; };
+		24666E94269F3A540067EF91 /* ApiSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24666E81269F3A540067EF91 /* ApiSettings.swift */; };
+		24666E95269F3A540067EF91 /* RestClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24666E82269F3A540067EF91 /* RestClient.swift */; };
+		24666E96269F3A540067EF91 /* ApiStructs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24666E83269F3A540067EF91 /* ApiStructs.swift */; };
+		24666E97269F3A540067EF91 /* HttpService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24666E84269F3A540067EF91 /* HttpService.swift */; };
 		24D1D352269DF676008FF099 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D1D351269DF676008FF099 /* AppDelegate.swift */; };
 		24D1D35B269DF67C008FF099 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24D1D35A269DF67C008FF099 /* Assets.xcassets */; };
 		24D1D35E269DF67C008FF099 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24D1D35C269DF67C008FF099 /* LaunchScreen.storyboard */; };
@@ -22,9 +29,17 @@
 		24D1D39F269DFE4F008FF099 /* TagCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D1D39D269DFE4F008FF099 /* TagCollectionViewCell.swift */; };
 		24D1D3A0269DFE4F008FF099 /* TagCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 24D1D39E269DFE4F008FF099 /* TagCollectionViewCell.xib */; };
 		24D1D3A4269DFFC0008FF099 /* BaseExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D1D3A3269DFFC0008FF099 /* BaseExtension.swift */; };
+		703ED6047C93E630AF7DEBF1 /* Pods_Tags.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92ECC689C3B54E886621FD2D /* Pods_Tags.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		24666E76269F3A540067EF91 /* HomeRequests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeRequests.swift; sourceTree = "<group>"; };
+		24666E7F269F3A540067EF91 /* InternetService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InternetService.swift; sourceTree = "<group>"; };
+		24666E80269F3A540067EF91 /* NetworkActivityIndicatorManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkActivityIndicatorManager.swift; sourceTree = "<group>"; };
+		24666E81269F3A540067EF91 /* ApiSettings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiSettings.swift; sourceTree = "<group>"; };
+		24666E82269F3A540067EF91 /* RestClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestClient.swift; sourceTree = "<group>"; };
+		24666E83269F3A540067EF91 /* ApiStructs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiStructs.swift; sourceTree = "<group>"; };
+		24666E84269F3A540067EF91 /* HttpService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HttpService.swift; sourceTree = "<group>"; };
 		24D1D34E269DF676008FF099 /* Tags.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tags.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		24D1D351269DF676008FF099 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		24D1D35A269DF67C008FF099 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -42,6 +57,9 @@
 		24D1D39D269DFE4F008FF099 /* TagCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagCollectionViewCell.swift; sourceTree = "<group>"; };
 		24D1D39E269DFE4F008FF099 /* TagCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TagCollectionViewCell.xib; sourceTree = "<group>"; };
 		24D1D3A3269DFFC0008FF099 /* BaseExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseExtension.swift; sourceTree = "<group>"; };
+		28F6C7BCFE197445EB43F5C1 /* Pods-Tags.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tags.debug.xcconfig"; path = "Target Support Files/Pods-Tags/Pods-Tags.debug.xcconfig"; sourceTree = "<group>"; };
+		742C54E36A941BE5A3195C0C /* Pods-Tags.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tags.release.xcconfig"; path = "Target Support Files/Pods-Tags/Pods-Tags.release.xcconfig"; sourceTree = "<group>"; };
+		92ECC689C3B54E886621FD2D /* Pods_Tags.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tags.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,17 +67,50 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				703ED6047C93E630AF7DEBF1 /* Pods_Tags.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		24666E6F269F3A540067EF91 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				24666E70269F3A540067EF91 /* Requests */,
+				24666E7E269F3A540067EF91 /* Base */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		24666E70269F3A540067EF91 /* Requests */ = {
+			isa = PBXGroup;
+			children = (
+				24666E76269F3A540067EF91 /* HomeRequests.swift */,
+			);
+			path = Requests;
+			sourceTree = "<group>";
+		};
+		24666E7E269F3A540067EF91 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				24666E7F269F3A540067EF91 /* InternetService.swift */,
+				24666E80269F3A540067EF91 /* NetworkActivityIndicatorManager.swift */,
+				24666E81269F3A540067EF91 /* ApiSettings.swift */,
+				24666E82269F3A540067EF91 /* RestClient.swift */,
+				24666E83269F3A540067EF91 /* ApiStructs.swift */,
+				24666E84269F3A540067EF91 /* HttpService.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
 		24D1D345269DF676008FF099 = {
 			isa = PBXGroup;
 			children = (
 				24D1D350269DF676008FF099 /* Tags */,
 				24D1D34F269DF676008FF099 /* Products */,
+				C00C5F8F473428D4DC000044 /* Pods */,
+				302AAB1681B23492E2BA8EFD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -76,6 +127,7 @@
 			children = (
 				24D1D365269DF68D008FF099 /* AppDelegate */,
 				24D1D398269DFBEA008FF099 /* Screens */,
+				24666E6F269F3A540067EF91 /* Service */,
 				24D1D395269DFB6A008FF099 /* Extensions */,
 				24D1D399269DFC18008FF099 /* Resources */,
 			);
@@ -150,6 +202,23 @@
 			path = Cells;
 			sourceTree = "<group>";
 		};
+		302AAB1681B23492E2BA8EFD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				92ECC689C3B54E886621FD2D /* Pods_Tags.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C00C5F8F473428D4DC000044 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				28F6C7BCFE197445EB43F5C1 /* Pods-Tags.debug.xcconfig */,
+				742C54E36A941BE5A3195C0C /* Pods-Tags.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -157,9 +226,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 24D1D362269DF67C008FF099 /* Build configuration list for PBXNativeTarget "Tags" */;
 			buildPhases = (
+				1FB3C4672DEB01D5AA4FDBEC /* [CP] Check Pods Manifest.lock */,
 				24D1D34A269DF676008FF099 /* Sources */,
 				24D1D34B269DF676008FF099 /* Frameworks */,
 				24D1D34C269DF676008FF099 /* Resources */,
+				0A92F8E700C4B5821ECAB29C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -216,22 +287,71 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0A92F8E700C4B5821ECAB29C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Tags/Pods-Tags-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Tags/Pods-Tags-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Tags/Pods-Tags-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1FB3C4672DEB01D5AA4FDBEC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Tags-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		24D1D34A269DF676008FF099 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				24D1D352269DF676008FF099 /* AppDelegate.swift in Sources */,
+				24666E94269F3A540067EF91 /* ApiSettings.swift in Sources */,
+				24666E93269F3A540067EF91 /* NetworkActivityIndicatorManager.swift in Sources */,
 				24D1D3A4269DFFC0008FF099 /* BaseExtension.swift in Sources */,
 				24D1D38F269DFAAA008FF099 /* HomeModels.swift in Sources */,
 				24D1D38D269DFAAA008FF099 /* HomeRouter.swift in Sources */,
+				24666E95269F3A540067EF91 /* RestClient.swift in Sources */,
+				24666E96269F3A540067EF91 /* ApiStructs.swift in Sources */,
 				24D1D392269DFAAA008FF099 /* HomeInteractor.swift in Sources */,
 				24D1D391269DFAAA008FF099 /* HomeBuilder.swift in Sources */,
 				24D1D39B269DFCFC008FF099 /* HomeCollectionViewDataSouce.swift in Sources */,
 				24D1D38C269DFAAA008FF099 /* HomeWorker.swift in Sources */,
 				24D1D38B269DFAAA008FF099 /* HomePresenter.swift in Sources */,
 				24D1D390269DFAAA008FF099 /* HomeViewController.swift in Sources */,
+				24666E92269F3A540067EF91 /* InternetService.swift in Sources */,
+				24666E8A269F3A540067EF91 /* HomeRequests.swift in Sources */,
 				24D1D39F269DFE4F008FF099 /* TagCollectionViewCell.swift in Sources */,
+				24666E97269F3A540067EF91 /* HttpService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -367,6 +487,7 @@
 		};
 		24D1D363269DF67C008FF099 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 28F6C7BCFE197445EB43F5C1 /* Pods-Tags.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -387,6 +508,7 @@
 		};
 		24D1D364269DF67C008FF099 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 742C54E36A941BE5A3195C0C /* Pods-Tags.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

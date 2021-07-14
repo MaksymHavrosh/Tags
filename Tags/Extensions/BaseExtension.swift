@@ -1,9 +1,8 @@
 //
 //  BaseExtension.swift
-//  maraya tvOS
+//  Tags
 //
-//  Created by Lampa on 29.06.2020.
-//  Copyright © 2020 Lampa. All rights reserved.
+//  Created by MG on 14.07.2021.
 //
 
 import UIKit
